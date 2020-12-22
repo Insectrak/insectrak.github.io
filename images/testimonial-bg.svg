@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<svg width="1440" height="481" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+ <title>1</title>
+ <desc>Created with Sketch.</desc>
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g fill="none" fill-rule="evenodd" id="Marshmello_landing-page">
+   <g id="Marshmello_landngpage-Copy" transform="translate(0 -2629)">
+    <g id="1" transform="translate(0 2629)">
+     <rect fill="#007f7f" height="480" id="Rectangle" width="1439" x="2"/>
+     <path d="m1335,100l106,0l0,218l-106,0c-2.76142,0 -5,-2.23858 -5,-5l0,-208c0,-2.76142 2.23858,-5 5,-5z" fill="#007f7f" id="Rectangle" opacity="0.111561"/>
+     <g fill="#FFFFFF" id="Group-4" opacity="0.111561" transform="translate(618 293)">
+      <path d="m54,0l158,0c2.76142,0 5,2.23858 5,5l0,182l-168,0l0,-182c0,-2.76142 2.23858,-5 5,-5z" fill="#007f7f" id="Rectangle-Copy-8"/>
+      <path d="m6,26l158,0c2.76142,0 5,2.23858 5,5l0,157l-168,0l0,-157c0,-2.76142 2.23858,-5 5,-5z" fill="#007f7f" id="Rectangle-Copy-9"/>
+     </g>
+     <path d="m1287,126l153,0l0,218l-153,0c-2.76142,0 -5,-2.23858 -5,-5l0,-208c0,-2.76142 2.23858,-5 5,-5z" fill="#007f7f" id="Rectangle-Copy-7" opacity="0.111561"/>
+     <path d="m2,50l108,0c2.76142,0 5,2.23858 5,5l0,208c0,2.76142 -2.23858,5 -5,5l-108,0l0,-218z" fill="#007f7f" id="Rectangle-Copy-10" opacity="0.111561"/>
+     <path d="m1,76l61,0c2.76142,0 5,2.23858 5,5l0,208c0,2.76142 -2.23858,5 -5,5l-61,0l0,-218z" fill="#007f7f" id="Rectangle-Copy-11" opacity="0.111561"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
