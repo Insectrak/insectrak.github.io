@@ -13,16 +13,17 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="shortcut icon" href="images/favicon.png" />
 		<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css"> <!-- Font Awesome -->
-		<link rel="stylesheet" href="css/menu.css"> <!-- Include Menu stylesheet -->
 		<link rel="stylesheet" href="vendors/fotorama/fotorama.min.css"> <!-- Font Awesome -->
 		<link rel="stylesheet" href="vendors/fotorama/fotorama.css"> <!-- Font Awesome -->
+		<link rel="stylesheet" href="scss/navbar.css"> <!-- Mod nav. -->
+		
 
 		
 	</head>	
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		
-		<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #1fb7a6">
-			<a class="navbar-brand d-none d-lg-block" href="#" ><img src="images/LOGO_GPR.png"></a>		
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<z class="navbar-brand d-none d-lg-block" href="#" ><img src="images/LOGO_GPR.png"></z>		
 			<a href="call:+51933876285" class="d-none d-lg-block" style="color:white"><i class="icon fa fa-phone"></i> 933 876 285</a>			
 			<a href="mailto:ventas@gprperu.com" data-section="modal-contact" d____ata-target="#modal-contact999999" data-toggle="modal" class="d-none d-lg-block" style="color:white"><i class="icon fa fa-envelope-o"></i> ventas@gprperu.com</a>
 			<div class="container">												
@@ -36,26 +37,30 @@
 					</div>					
 					<ul class="navbar-nav ml-auto align-items-center">
 						<li class="nav-item active">
-							<a class="nav-link" href="#home">INICIO <span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#services">¿QUIÉNES SOMOS?</a>
+							<a class="nav-link" href="quienes-somos.html">¿QUIÉNES SOMOS?</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#about">ELIGE TU VIVIENDA</a>
+							<a class="nav-link" href="viviendas.html">ELIGE TU VIVIENDA</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#projects">NUESTRAS OFICINAS</a>
+							<a class="nav-link" href="oficinas.html">NUESTRAS OFICINAS</a>
 						</li>
-						<li class="has_submenu nav-item">
-							<a class="nav-link" href=#>¿Como comprar tu vivienda?</a>
-								<ul>
-									<li><a href="compra">Proceso de Compra</a></li>
-									<li><a href="bono-techo-propio">Bono Techo Propio</a></li>
-									<li><a href="bono-nuevo-credito">Bono Nuevo Crédito Mi Vivienda</a></li>
-									<li><a href="bono-vivienda-verde">Bono Mi Vivienda Verde</a></li>
-									<li><a href="preguntas-frecuentes">Preguntas Frecuentes</a></li>
-								</ul>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href=#>¿Como comprar tu vivienda?</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="compra" style="color:#fff">Proceso de Compra</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item"  href="bono-techo-propio" style="color:#fff">Bono Techo Propio</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="bono-nuevo-credito" style="color:#fff">Bono Nuevo Crédito Mi Vivienda</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="bono-vivienda-verde" style="color:#fff">Bono Mi Vivienda Verde</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="preguntas-frecuentes" style="color:#fff">Preguntas Frecuentes</a>
+								</div>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="avance_obras.html">AVANCE DE OBRAS</a>
@@ -63,11 +68,11 @@
 						<li class="nav-item">
 							<a class="youtubeHeader" href="https://www.youtube.com/channel/UCqYEN-8xqvM3uQhV4U5eBaA?view_as=subscriber/" target="_blank" class="d-none d-lg-block" style="color:white"><i class="fa fa-youtube"></i></a>
 						</li>
-						<a style="color:#1fb7a6" class="d-none d-lg-block">.</a>
+						<z style="color:#1fb7a6" class="d-none d-lg-block">.</z>
 						<li class="nav-item">
 						<a class="whatsappHeader messageWhatsapp" href="https://api.whatsapp.com/send?phone=+51933876285&amp;text=Hola%20GPR%20Inmobiliaria,%20envíame%20información%20de%20los%20inmuebles.%20" class="d-none d-lg-block" style="color:white"><i class="fa fa-whatsapp"></i></a></li>
 						</li>
-						<a style="color:#1fb7a6" class="d-none d-lg-block">.</a>
+						<z style="color:#1fb7a6" class="d-none d-lg-block">.</z>
 						<li class="nav-item">
 						<a class="instagramHeader" href="https://instagram.com/gpr_inmobiliaria?igshid=130h4s55e28lp" target="_blank" class="d-none d-lg-block" style="color:white"><i class="fa fa-instagram"></i></a>
 						</li>	
@@ -123,50 +128,23 @@
 					<div class="mb-5" data-aos="fade-up">
 						<div class="owl-carousel-projects owl-carousel owl-theme">
 							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
+								<img src="images/carousel/texaogal.jpg" alt="slider">
 							</div>
 							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
+								<img src="images/carousel/aleligal.jpg" alt="slider">
 							</div>
 							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
+								<img src="images/carousel/capuligal.jpg" alt="slider">
 							</div>
 							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
+								<img src="images/carousel/wititigal.jpg" alt="slider">
 							</div>
 							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
+								<img src="images/carousel/yaravigal.jpg" alt="slider">
 							</div>
 							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
-							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
-							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
-							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
-							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
-							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
-							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
-							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
-							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
-							<div class="item">
-								<img src="images/carousel/prueba1.png" alt="slider">
-							</div>
+								<img src="images/carousel/mistigal.jpg" alt="slider">
+							</div>							
 						</div>
 					</div>	
 					<div class="row" data-aos="fade-up">
