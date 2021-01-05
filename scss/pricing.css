@@ -1,0 +1,48 @@
+.pricing-box {
+    border-radius: 4px;
+    border: solid 1px grey;
+    background-color: white;
+    padding: 47px;
+    text-align: center;
+    margin-top: 40px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .pricing-box .title-text {
+    color: theme-color(dark);
+  }
+  .pricing-box .text-amount {
+    color: theme-color(primary);
+  }
+  .pricing-box img {
+    margin-bottom: 37px;
+  }
+  .pricing-box .pricing-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 40px;
+  }
+  .pricing-box .pricing-list li {
+    padding: 8px;
+  }
+  .pricing-box.selected {
+    box-shadow: 0 9px 15px 0 rgba(7, 42, 68, 0.09);
+  }
+  .pricing-box:hover {
+    background: #ffac01;
+  }
+  .pricing-box:hover .title-text {
+    color: white;
+  }
+  .pricing-box:hover .text-amount {
+    color: white;
+  }
+  .pricing-box:hover .pricing-list li {
+    color: white;
+  }
+  .pricing-box:hover .btn {
+    color: white;
+  }
