@@ -1,3 +1,5 @@
+@import "./variables";
+
 body,
 html {
 	overflow-x: hidden;
@@ -5,7 +7,7 @@ html {
 
 .home {
 	background: $header-bg;
-	background-repeat-y: no-repeat;
+	background-repeat: no-repeat;
 	background-position: 0 -50px;
 	padding-top: 103px;
 	@media (max-width: 991px) {
